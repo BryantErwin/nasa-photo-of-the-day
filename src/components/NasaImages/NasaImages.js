@@ -21,7 +21,7 @@ function NasaImg(){
         <div className='nasa-photo'>
             <NasaCard
             title={pics.title}
-            images={pics.url}
+            picture={pics.url}
             date={pics.date}
             description={pics.explanation}
             />
